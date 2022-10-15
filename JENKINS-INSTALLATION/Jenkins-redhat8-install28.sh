@@ -1,4 +1,5 @@
 # CREATE HOSTNAME
+sudo adduser jenkins
 sudo timedatectl set-timezone America/New_York
 sudo hostnamectl set-hostname jenkins
 sudo yum install wget -y
